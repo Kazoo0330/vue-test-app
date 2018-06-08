@@ -13,7 +13,8 @@ new Vue({
         .then(res => {
           this.bookInfo = res.data;
           this.bookInfoBool = true;
+    
         });
     }
-  }
+  },
 });
